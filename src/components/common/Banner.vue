@@ -2,7 +2,7 @@
     <div class="Banner">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" v-for="str in listImg" :style="{ backgroundImage: 'url(' + str.url + ')' }"></div>
+                <div class="swiper-slide" v-for="str in listImg" :style="{ backgroundImage: 'url(' + str.url + ')' }" :key="str.url"></div>
             </div>
             <div class="swiper-pagination swiper-pagination-white"></div> 
         </div>
@@ -42,12 +42,12 @@
 
 <style lang="less">
     .Banner{
-        position: fixed;
-        z-index: 10;
+        // position: fixed;
+        // z-index: 10;
         width: 100%;
         height: 10rem;
         background: #fff;
-        top: 2.55rem;
+        // top: 2.55rem;
     }
     .swiper-container {
         width: 100%;

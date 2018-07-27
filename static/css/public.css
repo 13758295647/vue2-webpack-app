@@ -1,0 +1,64 @@
+header {
+    height: 2.55rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    line-height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+
+.public-menu {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.four-menu{
+    width:25%;
+    color:#000;
+    margin-bottom: 1.2rem;
+}
+
+.public-menu .iconfont {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 1.9rem;
+    line-height: 1.8rem;
+}
+
+.four-menu .iconfont {
+    height: 2.4rem;
+}
+
+.public-menu span {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    line-height: 0.8rem;
+}
+
+.router-link-active .iconfont, .router-link-active span {
+    color: #4092e3;
+}
+
+.small-header {
+    color: #000;
+    font-size: 0.8rem;
+    line-height: 3rem;
+    display: block;
+    text-align: left;
+}

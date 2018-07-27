@@ -23,13 +23,6 @@
 <style>
     .header {
         background: #fcfcfc;
-        height: 2.55rem;
-        width: 100%;
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 2;
-        line-height: 2.5rem;
         padding-left: 10px;
     }
     .header span{

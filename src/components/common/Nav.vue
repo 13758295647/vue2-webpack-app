@@ -36,8 +36,10 @@
 
 <style>
     .nav {
-        position: fixed;
-        top: 12.55rem;
+        /* position: fixed;
+        top: 12.55rem; */
+        height: 15rem;
+        background: #fff;
     }
 
     .nav-menu{
